@@ -1,0 +1,11 @@
+services:
+  - type: static_site
+    name: jal-suraksha-kavach
+    env: static
+    rootDir: Smart-Health-Surveillance-and-Early-Warning-System-for-Waterborne-Diseases-main
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
