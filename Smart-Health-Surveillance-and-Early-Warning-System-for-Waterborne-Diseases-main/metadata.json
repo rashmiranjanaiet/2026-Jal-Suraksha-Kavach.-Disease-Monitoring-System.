@@ -1,0 +1,8 @@
+{
+  "name": "Jal Suraksha Kavach",
+  "description": "A comprehensive disease tracking dashboard for Indian states with admin reporting and public visualization.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
